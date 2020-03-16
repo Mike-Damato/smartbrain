@@ -3,10 +3,6 @@
 Copy and paste an image URL to detect a face on the image.
 This project is also deployed on https://smartbrainfacedetector.herokuapp.com/
 
-## Available Scripts
-
-In the project directory, you can run:
-
 ### Local Setup
 
 Run git clone https://github.com/Mike-Damato/smartbrain.git and navigate to the project folder with cd smartbrain
