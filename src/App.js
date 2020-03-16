@@ -8,6 +8,23 @@ import Signin from './components/Signin/Signin';
 import Register from './components/Register/Register';
 import Particles from 'react-particles-js';
 import './App.css';
+// import { Helmet } from 'react-helmet'
+
+
+// class Application extends React.Component {
+//   render () {
+//     return (
+//         <div className="application">
+//             <Helmet>
+//                 <meta charSet="utf-8" />
+//                 <title>Smartbrain</title>
+//                 <link rel="canonical" href="#" />
+//             </Helmet>
+//             ...
+//         </div>
+//     );
+//   }
+// };
 
 const particlesOptions = {
   particles: {
@@ -142,19 +159,3 @@ loadUser = (data) => {
 
 export default App;
 
-// class App extends Component {
-//   render() {
-//     return (
-//       <div className="App">
-//         <Particles className='particles'
-//         params={particlesOptions} />
-//         <Navigation />
-//         <Logo />
-//         <Rank />
-//         <ImageLinkForm />
-//         {/* {
-//         <FaceRecognition />} */}
-//       </div>
-//     );
-//   }
-// };
